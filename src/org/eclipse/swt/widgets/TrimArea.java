@@ -16,6 +16,9 @@ import org.eclipse.swt.graphics.Point;
  * A ControlListener is added to the Shell in order to resize the trim area
  * together with the Shell.
  * 
+ * This class is located in the org.eclipse.swt.widgets package because we need
+ * to override Composite.getMinimumHeight() which is package-private.
+ *
  * @author stippi
  *
  */
