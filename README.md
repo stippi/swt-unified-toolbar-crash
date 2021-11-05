@@ -2,6 +2,8 @@
 
 Reproducable test case for https://bugs.eclipse.org/bugs/show_bug.cgi?id=568881
 
+Demonstrates using a "TrimArea" in the unified toolbar of macOS app windows.
+
 ## Steps to reproduce
 
 1. Import into Eclipse workspace
