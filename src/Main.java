@@ -25,7 +25,7 @@ public class Main {
 	private static void configureShell(Shell shell) {
 		shell.setText("Unified Toolbar Test");
 
-		// This next line crashes on macOS Monterrey but used to work on Big Sur.
+		// This next line crashes on macOS Monterrey but works on Big Sur.
 		Composite trimArea = TrimArea.createTrimArea(shell);
 		if (trimArea != null) {
 			Label leftLabel = new Label(trimArea, SWT.NULL);
